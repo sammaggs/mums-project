@@ -7,12 +7,22 @@ child theme of WordPress' Twenty Sixteen theme
 */
 
 
+
+.home #primary {
+    width: 100%;
+}
+
+.header-post-title-container{
+    background-color: #f8b8bd;
+    
+}
+
 .footer-widget-title {
     color: #f8b8bd;
     font-size: 0.75em;
     font-weight: 200;
-    
 }
+
 
 .footer-white {
     color: white;
@@ -21,39 +31,33 @@ child theme of WordPress' Twenty Sixteen theme
 }
 
 .footer-socket-wrapper {
-    padding-top: 20px;
-    padding-left: 20px;
-    height: 350px;
-    background-color: #817E7E;
-    color: white;
+    background-color: #f8b8bd;
+    text-align: center;
+
+    
 }
 
-
+.footer-widget-width {
+    width: 33%;
+}
 
 #footer-widgets {
-    display: block;
-    width:1080px;
+    display: flex;
     margin-right:0;
     background: #817E7E;
     }
     #footer-widget1 {
-    width: 260px;
-    float: left;
+    
     margin: 15px 10px 10px 30px;
     padding: 10px;
-    
     }
     #footer-widget2 {
-    width: 260px;
-    float: left;
+    
     margin: 15px 10px 10px 15px;
     padding: 10px;
-    
     }
     #footer-widget3 {
-    width: 260px;
-    float: left;
+    width: 33%;
     margin: 15px 10px 10px 15px;
     padding: 10px;
-    
     }
