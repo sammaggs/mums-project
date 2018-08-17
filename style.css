@@ -6,15 +6,45 @@ child theme of WordPress' Twenty Sixteen theme
  Template:     spacious
 */
 
+#site-title a {
+    font-size: 2em;
+    font-family: 'Fjalla One', sans-serif;
 
+}
+
+#site-description {
+    font-family: 'Fjalla One', sans-serif;
+}
+
+
+#site-description {
+    text-align: center;
+}
+
+.table-heading {
+    color: #817E7E;
+    font-family: 'Fjalla One', sans-serif;
+    text-align: center;
+
+}
+
+#header-text {
+    float: left;
+    padding: 25px 20px 0 0;
+}
 
 .home #primary {
     width: 100%;
 }
 
 .header-post-title-container{
-    background-color: #f8b8bd;
-    
+    background-color: #f8b8bd;   
+}
+
+.header-post-title-class{
+    color: white;  
+    font-family: 'Fjalla One', sans-serif;
+
 }
 
 .footer-widget-title {

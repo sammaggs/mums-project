@@ -9,7 +9,7 @@ let watch = require('gulp-watch');
 
 
 gulp.task('sass', function () {
-    var stream = gulp.src('style.scss')
+    var stream = gulp.src('*scss')
         .pipe(sass())
         .pipe(gulp.dest(''))
         .pipe(rename('styles.css'));
