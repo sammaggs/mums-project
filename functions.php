@@ -33,4 +33,14 @@ register_sidebar(array(
     'before_title' => '<h2>',
     'after_title' => '</h2>',
     ));
+
+    register_sidebar(array(
+    'name' => 'Contact Page Widget',
+    'id'        => 'contact-widget-1',
+    'description' => 'Contact widget area',
+    'before_widget' => '<div id="contact-widget1">',
+    'after_widget' => '</div>',
+    'before_title' => '<h2>',
+    'after_title' => '</h2>',
+    ));
 ?>

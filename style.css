@@ -63,8 +63,11 @@ child theme of WordPress' Twenty Sixteen theme
 .footer-socket-wrapper {
     background-color: #f8b8bd;
     text-align: center;
+    border: none;
+}
 
-    
+.copyright {
+    text-align: center;
 }
 
 .footer-widget-width {
@@ -74,20 +77,75 @@ child theme of WordPress' Twenty Sixteen theme
 #footer-widgets {
     display: flex;
     margin-right:0;
-    background: #817E7E;
+    background: #333;
+    line-height: 10px;
     }
     #footer-widget1 {
-    
-    margin: 15px 10px 10px 30px;
+    /* margin: 15px 10px 10px 30px; */
     padding: 10px;
+    text-align: center;
     }
     #footer-widget2 {
-    
-    margin: 15px 10px 10px 15px;
+    /* margin: 15px 10px 10px 15px; */
     padding: 10px;
+    text-align: center;
     }
     #footer-widget3 {
-    width: 33%;
-    margin: 15px 10px 10px 15px;
+    /* margin: 15px 10px 10px 15px; */
     padding: 10px;
+    text-align: center;
+
+    }
+
+    #footer-widget3 h2 {
+        font-weight: 200;
+        color:  #f8b8bd;
+        font-size: 1.5em;
+    }
+
+    #footer-widget2 h2 {
+        font-weight: 200;
+        color:  #f8b8bd;
+        font-size: 1.5em;
+    }
+
+    #footer-widget2 p {
+        font-weight: 200;
+        color: white;
+        font-size: 1em;
+    }
+
+    #footer-widget1 h1 {
+        line-height: 25px;
+    }
+
+    #footer-widget1 p {
+        color:  #f8b8bd;
+
+    }
+
+
+
+   div.testimonial-author {
+       text-align: center;
+   }
+
+
+
+    #contact-page-widget {
+        width: 100%;
+        margin: 15px 10px 10px 15px;
+        padding: 10px;
+    }
+
+    .gallery-icon img {
+        border-radius: 5px;
+    }
+
+    .gallery-item {
+        padding: 3px;
+    }
+
+    .gallery-item {
+        margin: 0px;
     }
